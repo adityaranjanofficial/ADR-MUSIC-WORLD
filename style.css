@@ -1166,3 +1166,31 @@ img {
   }
 
 }
+
+
+
+
+@media (max-width: 800px) {
+
+  .navigation.mobile-open {
+    display: flex !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: #080808;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    z-index: 9999;
+    box-shadow: 0 10px 25px rgba(0,0,0,.5);
+  }
+
+  .navigation.mobile-open a {
+    display: block !important;
+    color: #fff !important;
+    font-size: 14px;
+    padding: 5px 0;
+  }
+}
