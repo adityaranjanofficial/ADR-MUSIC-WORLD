@@ -1085,3 +1085,53 @@ img {
     font-size: 40px;
   }
   }
+
+
+
+/* ===== MOBILE SONG CARD IMPROVEMENT ===== */
+
+@media (max-width: 600px) {
+
+  .songs-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .song-card {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .cover {
+    min-height: 220px;
+    height: 220px;
+  }
+
+  .song-info {
+    padding: 16px;
+  }
+
+  .song-info h3 {
+    font-size: 19px;
+    margin-bottom: 6px;
+  }
+
+  .song-info p {
+    font-size: 14px;
+  }
+
+  .song-info span {
+    font-size: 12px;
+  }
+
+  .play-btn {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+}
